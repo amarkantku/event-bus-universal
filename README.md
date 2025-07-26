@@ -136,4 +136,3 @@ MIT © 2025 \[Amarkant Kumar]
 
 Use `event-bus-universal` for inter-component or inter-app communication in microfrontend setups, real-time dashboards, plugin systems, or cross-tab messaging!
 
-```
