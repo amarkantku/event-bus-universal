@@ -1,0 +1,14 @@
+# Ignore compiled output
+dist/
+
+# Node modules
+node_modules/
+
+# Test coverage
+coverage/
+
+# Logs
+*.log
+
+# Git
+.git

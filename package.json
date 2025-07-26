@@ -1,0 +1,45 @@
+{
+  "name": "event-bus-universal",
+  "version": "1.0.0",
+  "description": "A universal EventBus for Node.js and Browser environments",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [
+    "eventbus",
+    "events",
+    "pubsub",
+    "node",
+    "browser",
+    "typescript"
+  ],
+  "author": "Amarkant Kumar <amar.du2013@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amarkantku/event-bus-universal.git"
+  },
+  "homepage": "https://github.com/amarkantku/event-bus-universal#readme",
+  "bugs": {
+    "url": "https://github.com/amarkantku/event-bus-universal/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "jest": "^29.6.1",
+    "prettier": "^3.6.2",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4"
+  }
+}
